@@ -1,0 +1,24 @@
+[08-Aug-2024 13:54:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dailyre1/public_html/koneksi.php:6
+Stack trace:
+#0 /home/dailyre1/public_html/koneksi.php(6): mysqli_connect()
+#1 /home/dailyre1/public_html/index.php(2): include('/home/dailyre1/...')
+#2 {main}
+  thrown in /home/dailyre1/public_html/koneksi.php on line 6
+[08-Aug-2024 13:54:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dailyre1/public_html/koneksi.php:6
+Stack trace:
+#0 /home/dailyre1/public_html/koneksi.php(6): mysqli_connect()
+#1 /home/dailyre1/public_html/index.php(2): include('/home/dailyre1/...')
+#2 {main}
+  thrown in /home/dailyre1/public_html/koneksi.php on line 6
+[08-Aug-2024 13:54:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dailyre1/public_html/koneksi.php:6
+Stack trace:
+#0 /home/dailyre1/public_html/koneksi.php(6): mysqli_connect()
+#1 /home/dailyre1/public_html/index.php(2): include('/home/dailyre1/...')
+#2 {main}
+  thrown in /home/dailyre1/public_html/koneksi.php on line 6
+[08-Aug-2024 13:57:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dailyre1_gudang'@'localhost' (using password: YES) in /home/dailyre1/public_html/koneksi.php:6
+Stack trace:
+#0 /home/dailyre1/public_html/koneksi.php(6): mysqli_connect()
+#1 /home/dailyre1/public_html/index.php(2): include('/home/dailyre1/...')
+#2 {main}
+  thrown in /home/dailyre1/public_html/koneksi.php on line 6

@@ -1,0 +1,5 @@
+[12-Aug-2024 02:52:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`dailyre1_gudang`.`pemasukan`, CONSTRAINT `pemasukan_ibfk_1` FOREIGN KEY (`id_barang`) REFERENCES `barang` (`id_barang`)) in /home/dailyre1/public_html/data/delete.php:6
+Stack trace:
+#0 /home/dailyre1/public_html/data/delete.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/dailyre1/public_html/data/delete.php on line 6
